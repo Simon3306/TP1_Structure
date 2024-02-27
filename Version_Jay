@@ -44,7 +44,7 @@ public:
     Etudiant* listeEtudiants;
     Professeur* suivant;
 
-    Professeur(int _id, const string& _nom, const string& _prenom) : id(_id), nom(_nom), prenom(_prenom), listeCours(nullptr), listeEtudiants(nullptr), suivant(nullptr) {}
+    Professeur(int id, const string& nom, const string& prenom) : id(id), nom(nom), prenom(prenom), listeCours(nullptr), listeEtudiants(nullptr), suivant(nullptr) {}
 };
 
 class DossierProfesseur 
